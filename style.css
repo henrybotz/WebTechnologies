@@ -1,0 +1,45 @@
+/* Lab 4: Shield & Script Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+
+#main-banner {
+    background-color: #0a1a2f; 
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+
+#services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+
+.service-box h3 {
+    font-weight: bold;
+}
